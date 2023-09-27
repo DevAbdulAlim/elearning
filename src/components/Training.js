@@ -9,6 +9,7 @@ import {
 import React, { Fragment } from "react";
 import CourseCard from "./CourseCard";
 
+
 export default function Training() {
   return (
     <Fragment>

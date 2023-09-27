@@ -49,6 +49,7 @@ const CustomCard = styled(Card)`
 `;
 
 export default function CourseCard() {
+
   return (
     <Fragment>
       <Grid
