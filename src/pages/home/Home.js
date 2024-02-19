@@ -5,11 +5,12 @@ import Services from "../../components/Services";
 import Clients from "../../components/Clients";
 import Partnership from "../../components/Partnership";
 import Facts from "../../components/Facts";
+import HeroSection from "../../components/HeroSection";
 
 export default function Home() {
   return (
     <Fragment>
-      <SwipeableTextMobileStepper />
+      <HeroSection />
       <Facts />
       <Services />
       <Training />

@@ -1,34 +1,29 @@
-import React, { Fragment, useEffect } from "react";
+import React, { Fragment } from "react";
 import { courses } from "../_mock/data";
 import { Link as RouterLink } from "react-router-dom";
 import {
   Button,
   Card,
-  CardActions,
-  CardContent,
   CardMedia,
-  Container,
-  Box,
   Grid,
   styled,
   Typography,
-  Divider,
-  Rating,
   Link,
   Stack,
+  useTheme,
 } from "@mui/material";
 
 // AOS
 
-import { MdClass, MdTimer, MdAccountCircle } from "react-icons/md";
-import { RiAccountCircleFill, RiTimerFill } from "react-icons/ri";
+import { MdClass } from "react-icons/md";
+import { RiTimerFill } from "react-icons/ri";
 
 import webDesing from "../static/images/training/web-design.webp";
 import webDevelopment from "../static/images/training/web-development.jpg";
 import mernStack from "../static/images/training/mern-stack.jpg";
 import appsDevelopment from "../static/images/training/apps-development.jpg";
 import django from "../static/images/training/django.webp";
-import mechineLearning from "../static/images/training/mechine-learning.png";
+import machineLearning from "../static/images/training/mechine-learning.png";
 
 const images = [
   webDesing,
@@ -36,19 +31,22 @@ const images = [
   mernStack,
   appsDevelopment,
   django,
-  mechineLearning,
+  machineLearning,
 ];
 
-const CustomCard = styled(Card)`
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
-    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-  :hover {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-  }
-`;
+const CustomCard = styled(Card)(({ theme }) => ({
+  borderRadius: "10px",
+  boxShadow: `${theme.shadows[1]} ${theme.shadows[5]}`,
+  transition: "transform 0.2s ease-in-out",
+  "&:hover": {
+    transform: "translateY(-5px)",
+    boxShadow: `${theme.shadows[5]} ${theme.shadows[10]}`,
+  },
+}));
 
 export default function CourseCard() {
+  const theme = useTheme();
+
   return (
     <Fragment>
       <Grid
