@@ -1,14 +1,15 @@
-# Elearning and Earning Ltd
+![Screenshot_10-3-2024_13281_localhost](https://github.com/DevAbdulAlim/elearning/assets/83014949/3f75f72a-aa6f-42bb-8856-f6a4d5e96759)![Screenshot_10-3-2024_13303_localhost](https://github.com/DevAbdulAlim/elearning/assets/83014949/168b445a-a6e7-4f8d-9596-6360cba28f75)# Elearning and Earning Ltd
 
 Welcome to Elearning and Earning Ltd! We provide online courses and IT solutions to help you learn and earn from the comfort of your home.
 
 ## Home page
 
-![Screenshot_10-3-2024_13281_localhost.jpeg](static/images/homepage.jpeg)
+![homepage](https://github.com/DevAbdulAlim/elearning/assets/83014949/9bb762df-0644-4bbc-a037-631d2791e1d0)
 
 ## Course details page
 
-![Screenshot_10-3-2024_13303_localhost.jpeg](static/images/detailspage.jpeg)
+![detailspage](https://github.com/DevAbdulAlim/elearning/assets/83014949/b2ceca91-12d2-4c3c-83f6-f9a44a60b1b2)
+
 
 ## Features
 
