@@ -25,7 +25,7 @@ export default function Facts() {
           pb: 10,
         }}
       >
-        <Container maxWidth="xxl">
+        <Container maxWidth="xl">
           <Grid container spacing={4} alignItems="center">
             <Grid item xs={12} md={7}>
               <Typography

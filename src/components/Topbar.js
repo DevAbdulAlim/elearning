@@ -11,7 +11,7 @@ export default function Topbar() {
   return (
     <Fragment>
       <Box
-        sx={{ backgroundColor: "#202060", color: "white" }}
+        sx={{ backgroundColor: "white", color: "#202060" }}
         pt="1vh"
         pb="1vh"
       >

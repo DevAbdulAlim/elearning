@@ -119,7 +119,7 @@ function Appbar(props) {
           position="sticky"
           component="nav"
         >
-          <Container maxWidth="xxl">
+          <Container maxWidth="xl">
             <Toolbar disableGutters>
               <IconButton
                 size="large"

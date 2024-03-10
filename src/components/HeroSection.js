@@ -1,57 +1,44 @@
 import React from "react";
-import { Button, Typography, Container, Box } from "@mui/material";
-import { styled } from "@mui/system"; // Import styled from @mui/system
+import { Typography, Button } from "@mui/material";
 
-const HeroContainer = styled(Box)({
-  backgroundImage: "url('https://example.com/your-hero-image.jpg')",
-  backgroundSize: "cover",
-  backgroundPosition: "center",
-  color: "white",
-  textAlign: "center",
-  padding: "64px 0", // You can adjust the padding as needed
-});
+const FeatureSection = () => {
+  const sectionStyle = {
+    backgroundColor: "#202060",
+    padding: "120px 0",
+    textAlign: "center",
+    color: "white",
+  };
 
-const Overlay = styled(Box)({
-  backgroundColor: "rgba(0, 0, 0, 0.5)",
-  minHeight: "100%",
-  display: "flex",
-  flexDirection: "column",
-  justifyContent: "center",
-});
+  const titleStyle = {
+    marginBottom: "32px",
+  };
 
-const HeroText = styled(Typography)({
-  fontWeight: "bold",
-  marginBottom: "16px",
-});
+  const descriptionStyle = {
+    marginBottom: "48px",
+  };
 
-const HeroDescription = styled(Typography)({
-  marginBottom: "32px",
-});
+  const buttonStyle = {
+    backgroundColor: "#3f51b5",
+    color: "#fff",
+    "&:hover": {
+      backgroundColor: "#2f3a8d",
+    },
+  };
 
-const ExploreButton = styled(Button)({
-  fontSize: "1.2rem",
-  fontWeight: "bold",
-});
-
-const HeroSection = () => {
   return (
-    <HeroContainer>
-      <Container>
-        <Overlay>
-          <HeroText variant="h2">
-            Unlock Your Potential with Our Courses
-          </HeroText>
-          <HeroDescription variant="subtitle1">
-            Empower yourself through learning. Explore a wide range of courses
-            designed for your success.
-          </HeroDescription>
-          <ExploreButton variant="contained" color="secondary" href="/courses">
-            Explore Courses
-          </ExploreButton>
-        </Overlay>
-      </Container>
-    </HeroContainer>
+    <div style={sectionStyle}>
+      <Typography variant="h2" style={titleStyle}>
+        আমাদের সেবাসমূহ
+      </Typography>
+      <Typography variant="body1" style={descriptionStyle}>
+        আমরা আপনাদের জন্য বিভিন্ন সেবা উন্নত করে যাচ্ছি যা আপনাকে বেটার লার্নিং
+        এর অভিজ্ঞতা প্রদান করবে।
+      </Typography>
+      <Button variant="contained" style={buttonStyle}>
+        সেবাসমূহ দেখুন
+      </Button>
+    </div>
   );
 };
 
-export default HeroSection;
+export default FeatureSection;

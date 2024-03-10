@@ -1,5 +1,4 @@
-import { Box, Card, Container, Grid, Typography } from "@mui/material";
-import { element } from "prop-types";
+import { Box, Container, Grid, Typography } from "@mui/material";
 import React from "react";
 import { Fragment } from "react";
 import CourseCategories from "../../components/ServiceCategories";

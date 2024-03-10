@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import SwipeableTextMobileStepper from "../../components/Crasual";
 import Training from "../../components/Training";
 import Services from "../../components/Services";
 import Clients from "../../components/Clients";

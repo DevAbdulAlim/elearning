@@ -3,20 +3,11 @@ import { Routes, Route } from "react-router-dom";
 import ClientLayout from "./layouts/client/ClientLayout";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
-import Gallery from "./pages/about/Gallery";
-import TeamManagement from "./pages/about/TeamManagement";
-import Testomonials from "./pages/about/Testimonials";
-import JobPlacements from "./pages/career/JobPlacements";
-import PolyJobPlacements from "./pages/career/PolyJobPlacements";
 import NotFound from "./pages/NotFound";
-import SuccessStudents from "./pages/career/SuccessStudents";
 import Contact from "./pages/contact/Contact";
 import Branch from "./pages/Branch";
-import Admission from "./pages/Admission";
 import CourseByCategory from "./pages/courses/CourseByCategory";
 import CourseDetails from "./pages/courses/CourseDetails";
-import Menu from "./others/Menu";
-import Menu2 from "./others/Menu2";
 
 //Dashboard
 
