@@ -1,4 +1,4 @@
-# Elearning and Earning Ltd
+# Elearning and Earning clone
 
 Welcome to Elearning and Earning Ltd! We provide online courses and IT solutions to help you learn and earn from the comfort of your home.
 
@@ -23,7 +23,6 @@ Welcome to Elearning and Earning Ltd! We provide online courses and IT solutions
 
 - React: A JavaScript library for building user interfaces.
 - Material-UI: A popular React UI framework for creating beautiful and responsive designs.
-- [Add any other technologies used in your project]
 
 ## Getting Started
 
@@ -32,13 +31,13 @@ To get started with Elearning and Earning Ltd, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/elearning-and-earning.git
+   git clone https://github.com/DevAbdulAlim/elearning.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd elearning-and-earning
+   cd elearning
    ```
 
 3. Install dependencies:
@@ -57,7 +56,7 @@ To get started with Elearning and Earning Ltd, follow these steps:
 
 ## Contributing
 
-We welcome contributions from the community! If you'd like to contribute to Elearning and Earning Ltd, please follow these guidelines:
+We welcome contributions from the community! If you'd like to contribute, please follow these guidelines:
 
 1. Fork the repository and create a new branch.
 2. Make your changes and test them thoroughly.
