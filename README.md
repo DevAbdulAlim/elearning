@@ -69,4 +69,4 @@ We welcome contributions from the community! If you'd like to contribute to Elea
 
 [MIT License](LICENSE)
 
-This README.md file provides an overview of your project, including its features, technologies used, getting started instructions, contribution guidelines, and license information. Make sure to replace placeholders like `your-username` with your actual GitHub username and add any additional information specific to your project.
+This is a clone of Elarning and Earning LTD website
